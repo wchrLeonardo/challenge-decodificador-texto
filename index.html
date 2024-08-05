@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Decodificador de Texto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+    <script src='./assets/js/main.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/imgs/logo.png" alt="">
+        <h1 id="animacao_titulo" class="texto-titulo">Decodificador de Texto</h1>
+        <div class="botoes-temas">
+            <button class="botao-modo-claro" onclick="light_mode()">
+                <img src="./assets/imgs/sun.png" alt="">
+            </button>
+            <button class="botao-modo-escuro" onclick="dark_mode()">
+                <img src="./assets/imgs/moon.png" alt="">
+            </button>
+        </div>
+    </header>
+    <main class="aplicacao">
+        <section class="principal-aplicacao"> 
+            <textarea id="texto-recebido" class="input-texto" placeholder="Digite seu texto"></textarea>
+            <a class="warning" href="#">
+                <img src="./assets/imgs/warning.png" alt="">
+                Apenas letras minúsculas e sem acento
+            </a>
+            <div class="botoes-aplicacao">
+                <button class="botao-criptografar" onclick="encrypt()">Criptografar</button>
+                <button class="botao-descriptografar" onclick="decrypt()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="campo">
+            <div class="campo-mensagem">
+                <div class="posicao-area-texto">
+                    <textarea class="texto-criptografado" id="texto-colado" placeholder="Nenhuma mensagem..."></textarea>
+                </div>
+                    <img class="imagem-mensagem" src="./assets/imgs/image-messages.svg" alt="image-messages">
+                <h2 class="mensagem">Nenhuma mensagem encontrada</h2>
+                <p class="mensagem-mensagem">Digite um texto que você deseja criptografar ou Descriptografar</p>
+                    <div class="botao-copiar-posicao">
+                        <button class="botao-copiar" onclick="copy_as()">Copiar</button>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Leonardo Wicher L. Ferreira</p>
+        <p>2024. Todos direitos reservados &copy;</p>
+        <a href=""><img src="./assets/imgs/logo-linkedin.png" alt="logo-linkedin"></a>
+    </footer>
+</body>
+</html>
