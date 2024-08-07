@@ -143,3 +143,9 @@ Para saber mais sobre o CSS acesse o link abaixo⤵️
 ### Confira o código CSS
 
 <img src="./assets/imgs/imgs-git/pasta.png" width="20" height="20"> **[CSS](./assets/css/main.css)** 
+
+<hr>
+
+#### No fim minha estrutura de pastas ficou assim:
+
+<img width="200px" src="./assets/imgs/imgs-git/estrutura-pastas.png">
