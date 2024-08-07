@@ -124,7 +124,7 @@ A estilização foi feita toda com o famoso CSS puro, sem a adição de framewor
 
 <br>
 
-<div style="display:flex; gap:10%; justify-content:center;">
+<div align="center">
 <img src="./assets/imgs/imgs-git/respo-mobile.png">
 <img src="./assets/imgs/imgs-git/respo-tablet.png">
 </div>
