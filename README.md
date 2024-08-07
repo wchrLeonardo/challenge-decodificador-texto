@@ -27,9 +27,9 @@ Para estrutura dos componentes presentes na aplicação, como esperado, utilizei
 Para saber mais acesse o link abaixo⤵️
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+    <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
 </a>
+
 
 <figure>
 <img src="./assets/imgs/imgs-git/html.jpg">
