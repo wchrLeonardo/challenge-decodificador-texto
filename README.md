@@ -69,13 +69,75 @@ Para saber mais acesse o link abaixo⤵️
 <img src="./assets/imgs/imgs-git/lib-animejs.png">
 
 <br>
+
+## Efeito do Título1️⃣
 <img src="./assets/imgs/imgs-git/evento-efeito-titulo1.jpg">
 <img src="./assets/imgs/imgs-git/evento-efeito-titulo2.jpg">
 
 <br>
 
 ### Resultado
-<video loop> 
-<source src="./assets/imgs/imgs-git/efeito-titulo.mp4" type="video/mp4">
-</source>
-</video>
+<img src="./assets/imgs/imgs-git/efeito-titulo.gif">
+
+<hr>
+
+## Temas claro e escuro2️⃣
+Outro diferencial que quis por em minha aplicação foi a troca de temas. Por padrão o tema claro é inicializado ao carregar a página, e a troca é feita pelos ícones de sol e lua posicionados ao lado do título.
+
+<img width="40%" src="./assets/imgs/imgs-git/funcao-temas.jpg">
+
+> Estas funções se baseiam no meu código de estilo css, onde eu crio váriaveis para armezenar diferentes tipos de cores.
+
+<img width="50%" src="./assets/imgs/imgs-git/variaveis-css.png">
+
+> As váriaveis criadas dentro de ```:root``` são as que contém as cores do tema claro, e a classe criada para substitui-las ```dark-mode``` contém o tema escuro. As funções mostradas acima acessam a lista de classes presente no documento removendo a atual e substituindo pela outra assim:
+
+### Temas
+<img src="./assets/imgs/imgs-git/gif-temas.gif">
+
+<hr>
+
+## Criptografar o texto3️⃣
+
+A função para criptografar utiliza um padrão de substituir somente as vogais por ```strings``` específicas.
+> Ela armazena o valor digitado no input em uma variável, e um valor vazio na variável que irá receber o texto criptografado. Posteriormente os caracteres são limitados de acordo com as regras do jogo e verifica se o campo está vazio, caso não o objeto criado contendo chave e valor com o padrão de criptografia será percorrido em um laço de repetição substituindo as vogais e mantendo as consoantes. Isso faz com a visibilidade do documento seja modificada tornando o campo com a mensagem criptografada visível e as mensagens invisíveis para o usuário.
+
+<img src="./assets/imgs/imgs-git/funcao-criptografar.jpg">
+
+## Copiar4️⃣
+Função de copiar mensagem para descriptografia.
+<img src="./assets/imgs/imgs-git/funcao-copiar.jpg">
+
+## Descriptografar a mensagem5️⃣
+
+Essa função utiliza uma lógica diferente da outra percorrendo a mensagem criptografada e substituindo as ```strings``` padrão pelas vogais correspondentes.
+> Ela pega o valor da mensagem criptografada e também armazena em uma nova variável a mensagem correta de forma parecida com a outra, mas aqui usamos o método ```startsWith``` que vai procurar uma ```sub-string``` dentro da ```string``` de texto. Assim, substituindo pela vogal e pulando o tamanho do caractere correspondente enquando o contador do laço for menor que o tamanho da mensagem secreta. Ao final o campo é limpo a mensagem verdadeira é mostrada no input principal.
+
+<img src="./assets/imgs/imgs-git/funcao-descriptografar.jpg">
+
+<hr>
+
+<br>
+
+A estilização foi feita toda com o famoso CSS puro, sem a adição de frameworks, o Design conversa de forma responsiva com outros dispositivos como Tablets e Celulares com exceção de **ALGUNS** casos...
+
+<br>
+
+<div style="display:flex; gap:10%; justify-content:center;">
+<img src="./assets/imgs/imgs-git/respo-mobile.png">
+<img src="./assets/imgs/imgs-git/respo-tablet.png">
+</div>
+
+<br>
+
+> O CSS é uma linguagem de folha de estilo em cascata utilizada para decorar os elementos das páginas WEB
+
+Para saber mais sobre o CSS acesse o link abaixo⤵️
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+</a>
+
+### Confira o código CSS &nbsp;
+
+<img src="./assets/imgs/imgs-git/pasta.png" width="20" height="20"> **[CSS](./assets/css/main.css)** 
