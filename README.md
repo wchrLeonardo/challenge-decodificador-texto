@@ -14,7 +14,7 @@
 #### Para criar este projeto nos baseamos no conteúdo presente nas aulas dos cursos da Alura nos fornecido atráves do programa de trilhas Oracle One:
 
 <div align="center">
-<img width="60%" src="./assets/imgs/imgs-git/ONE_logo.png">
+<img height="250px" src="./assets/imgs/imgs-git/ONE_logo.png">
 </div>
 
 <hr>
