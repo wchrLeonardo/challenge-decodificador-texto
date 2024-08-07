@@ -44,9 +44,9 @@ A fim de motorizar a aplicação todas as funções e partes que movimentam o c�
 Para saber mais acesse o link abaixo⤵️
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
 </a>
+
 
 #### Conectando o HTML com o diretório e arquivo do código JS
 
@@ -60,9 +60,9 @@ Tudo feito atráves de lógica e com uma pitada da biblioteca:  **animejs**
 Para saber mais acesse o link abaixo⤵️
 
 <a href="https://animejs.com/documentation/" target="_blank">
-
-![JavaScript](https://img.shields.io/badge/animejs-%23323330.svg?style=for-the-badge&logo=animejs&logoColor=%23F7DF1E)
+    <img src="https://img.shields.io/badge/animejs-%23323330.svg?style=for-the-badge&logo=animejs&logoColor=%23F7DF1E" alt="AnimeJS">
 </a>
+
 
 #### Conectando o Cabeçalho do nosso HTML com a lib animejs
 
@@ -133,11 +133,12 @@ A estilização foi feita toda com o famoso CSS puro, sem a adição de framewor
 > O CSS é uma linguagem de folha de estilo em cascata utilizada para decorar os elementos das páginas WEB
 
 Para saber mais sobre o CSS acesse o link abaixo⤵️
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
 </a>
 
-### Confira o código CSS &nbsp;
+
+### Confira o código CSS
 
 <img src="./assets/imgs/imgs-git/pasta.png" width="20" height="20"> **[CSS](./assets/css/main.css)** 
