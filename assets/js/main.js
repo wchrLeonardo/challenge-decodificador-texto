@@ -101,28 +101,8 @@ function decrypt(){
     document.getElementById('texto-colado').value = texto_descriptografado //Adiciona o valor do texto descriptografado
   }   
 }
- //PRIMEIRA LÓGICA PENSADA, TOTALMENTE INCORRETA KK E NADA FUNCIONAL
-    // let captura_caractere = ''
-    // let texto_descriptografado = ''
-    // for (let i = 0; i < texto.length; i++){
-    //     captura_caractere += texto[i]
-    //     if(captura_caractere.includes('enter')){
-    //       texto_descriptografado += 'e'
-    //     } else if(captura_caractere.includes('ai')){
-    //       texto_descriptografado += 'a'
-    //     } else if(captura_caractere.includes('imes')){
-    //       texto_descriptografado += 'i'
-    //     } else if(captura_caractere.includes('ober')){
-    //       texto_descriptografado += 'o'
-    //     } else if(captura_caractere.includes('ufat')){
-    //       texto_descriptografado += 'u'
-    //     }else{
-    //       texto_descriptografado += texto[i]
-    //     }
-    // }
 
 
-//
 document.addEventListener('DOMContentLoaded', function(){
     // Define o texto que será "descriptografado"
     const text = "Decodificador de Texto";
