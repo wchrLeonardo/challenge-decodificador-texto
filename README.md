@@ -106,6 +106,7 @@ A função para criptografar utiliza um padrão de substituir somente as vogais 
 
 ## Copiar4️⃣
 Função de copiar mensagem para descriptografia.
+
 <img src="./assets/imgs/imgs-git/funcao-copiar.jpg">
 
 ## Descriptografar a mensagem5️⃣
